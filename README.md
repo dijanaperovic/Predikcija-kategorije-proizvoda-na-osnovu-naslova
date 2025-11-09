@@ -24,4 +24,7 @@ Model je sačuvan na Google Drive-u i dostupan za upotrebu u Google Colab-u ili 
 Otvorite Colab svesku koja učitava model. Nakon učitavanja, možete unositi nazive proizvoda za koje želite predikciju kategorije. Model će za svaki naziv proizvoda prikazati predviđenu kategoriju.
 
 3. **Unos proizvoda**  
-Unesite naziv proizvoda koji želite da klasifikujete. Ako naziv sadrži broj ili poznati brend, model će to automatski koristiti kao dodatnu informaciju. Lista prepoznatih brendova uključuje: iPhone, Samsung, Sony, Philips, Bosch, LG, Panasonic, Apple, Dell, HP, Lenovo, Whirlpool. K
+Unesite naziv proizvoda koji želite da klasifikujete. Ako naziv sadrži broj ili poznati brend, model će to automatski koristiti kao dodatnu informaciju. Lista prepoznatih brendova uključuje: iPhone, Samsung, Sony, Philips, Bosch, LG, Panasonic, Apple, Dell, HP, Lenovo, Whirlpool. Kada završite testiranje, unesite `exit` da biste izašli iz interaktivnog režima.
+
+4. **Napomene**  
+Model je treniran na deset kategorija proizvoda: mobile phones, tvs, cpus, digital cameras, microwaves, dishwashers, washing machines, freezers, fridge freezers, fridges. Model koristi pored naziva proizvoda i dodatne karakteristike (dužina naziva, prisustvo brojeva i prisustvo brenda) kako bi poboljšao tačnost predikcije. Za nove proizvode ili brendove koji nisu u listi, preporučuje se ažuriranje modela ili liste brendova radi preciznije predikcije.
